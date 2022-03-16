@@ -1,5 +1,7 @@
 # Container image for go-carbon, carbonapi and grafana
 
+[![graphite-grafana CI](https://github.com/nerdalert/graphite-grafana/actions/workflows/image-build.yml/badge.svg)](https://github.com/nerdalert/graphite-grafana/actions/workflows/image-build.yml)
+
 - See [Cloud Bandwidth](https://github.com/nerdalert/cloud-bandwidth) for an example usage.
 ## Quick Start
 
