@@ -1,5 +1,6 @@
 # Container image for go-carbon, carbonapi and grafana
 
+- See [Cloud Bandwidth](https://github.com/nerdalert/cloud-bandwidth) for an example usage.
 ## Quick Start
 
 - Using Docker or Podman, run the following. Once up and running point your browser to the container address to view the grafana UI.
