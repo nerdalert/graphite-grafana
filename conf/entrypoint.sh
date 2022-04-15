@@ -10,7 +10,8 @@ shutdown() {
   for _srv in $(ls -1 /etc/service); do
     sv force-stop $_srv
   done
-
+  # Exit 1 since runsvdir process isn't cleanly exiting
+  exit 1
   # shutdown runsvdir command
   kill -HUP $RUNSVDIR
   wait $RUNSVDIR
