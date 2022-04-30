@@ -2,7 +2,9 @@
 
 [![graphite-grafana CI](https://github.com/nerdalert/graphite-grafana/actions/workflows/image-build.yml/badge.svg)](https://github.com/nerdalert/graphite-grafana/actions/workflows/image-build.yml)
 
+- Based off go-graphite but maintained and running the latest component versions.
 - See [Cloud Bandwidth](https://github.com/nerdalert/cloud-bandwidth) for an example usage.
+
 ## Quick Start
 
 - Using Docker or Podman, run the following. Once up and running point your browser to the container address to view the grafana UI.
